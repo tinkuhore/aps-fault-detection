@@ -13,3 +13,9 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+### Step 3 - To see git log
+
+```bash
+git log
+```
