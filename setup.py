@@ -3,6 +3,7 @@ from typing import List
 
 REQUIREMENT_FILE_NAME="requirements.txt"
 HYPHEN_E_DOT = "-e ."
+
 def get_requirements()->List[str]:
     
     with open(REQUIREMENT_FILE_NAME) as requirement_file:
@@ -17,7 +18,7 @@ setup(
     name="sensor",
     version="0.0.1",
     author="tinku",
-    author_email="atinku.doitnow@gmail.com",
+    author_email="tinku.doitnow@gmail.com",
     packages = find_packages(),
     install_requires=get_requirements(),
 )
