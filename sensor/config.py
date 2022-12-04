@@ -10,4 +10,4 @@ class EnvironmentVariable():
 
 # Provide the mongodb localhost url to connect python to mongodb.
 env_var = EnvironmentVariable()
-client = pymongo.MongoClient(env_var.mongo_db_url)
+mongo_client = pymongo.MongoClient(env_var.mongo_db_url)
